@@ -1,20 +1,23 @@
 # DoS_detection_mitigation
 6th Semester project work
 
+##**Mininet**
+Mininet creates a realistic virtual network, running real kernel, switch and application code, on a single machine (VM, cloud or native), in seconds, with a single command
+Mininet is also a great way to develop, share, and experiment with Software-Defined Networking (SDN) systems
 **Commands to install mininet(In Linux)**
-Install Git:
-sudo apt-get install git-core
-Clone the mininet git repository:
+
+1.Install Git:sudo apt-get install git-core
+2.Clone the mininet git repository:
 git clone https://github.com/mininet/mininet
-Go to the mininet directory:
+3.Go to the mininet directory:
 cd mininet/
-Find the various versions of mininet available:
+4.Find the various versions of mininet available:
 git tag
-Select and checkout to a specific version
+5.Select and checkout to a specific version
 git checkout -b 2.3.0rc2
-cd to util directory inside mininet:
+6.cd to util directory inside mininet:
 cd utils
-Install mininet and its dependency:
+7.Install mininet and its dependency:
 ./install.sh -a
-Confirm installation:
+8.Confirm installation:
 sudo mn --version
